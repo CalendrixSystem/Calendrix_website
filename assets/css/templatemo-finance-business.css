@@ -24,27 +24,26 @@ Form Boxes Color - #343434 ---- FINISHED
 
 
 /* Defining the colors as variables*/
-:root { 
- --pine: #2E382E;
- --emerald: #45CB85;
- --blue: #72A1E5;
- --salmon: #f4989c;
- --mint: #94ecbe;
-
- --emphasis: var(--salmon);
- --main-text: var(--pine);
- --alt-text: var(--mint);
- --dark-text: var(--pine);
-
- --main-background: var(--blue);
- --alt-background: var(--salmon);
-
- --header: var(--blue);
- --footer: var(--pine);
- --footer-boxes: var(--emerald);
- --form-color: var(--emerald);
-;
-}
+:root {
+	--a: #333333;
+	--b: #6298e4; 
+	--c: #F9A602; 
+	--d: #f88379; 
+	--e: #6FBF5B; 
+	
+	--emphasis: var(--d);
+	--main-text: var(--a);
+	--alt-text: var(--e);
+	--dark-text: var(--a);
+	
+	--main-background: #f7f7f7;
+	--alt-background: #fff;
+	
+	--header: var(--b);
+	--footer: var(--a);
+	--footer-boxes: var(--c);
+	--form-color: var(--b);
+	}
 
 body {
   background-color: var(--main-background);
