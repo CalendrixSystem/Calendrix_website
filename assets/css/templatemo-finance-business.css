@@ -1242,6 +1242,8 @@ footer .contact-form button.filled-button:hover {
 
 .contact-information {
 	margin-top: 140px;
+	display: grid;
+	justify-items: center;
 }
 
 .contact-information .contact-item {
